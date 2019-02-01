@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 const expect = chai.expect;
 
 describe('index.js', function () {
   describe('companyName', function () {
+=======
+const expect = 'chai.expect';
+var companyName="Scuber";
+var mostProfitableNeighborhood='Chelsea';
+var companyCeo='Susan Smith';
+describe('index.js', function () {
+  describe('comanyName', function () {
+>>>>>>> 2586677466b84e1eb1df81de35bef441b1319624
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
     });
@@ -30,4 +39,8 @@ describe('index.js', function () {
       expect(function () { companyCeo = 'Lauren Hart' }).to.not.throw(TypeError);
     });
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 2586677466b84e1eb1df81de35bef441b1319624
